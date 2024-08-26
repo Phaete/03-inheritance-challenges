@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class Vehicle {
 
-    String manufacturer;
-    String model;
-    int yearOfManufacture;
+    private String manufacturer;
+    private String model;
+    private int yearOfManufacture;
 
     public Vehicle(String manufacturer, String model, int yearOfManufacture) {
         this.manufacturer = manufacturer;

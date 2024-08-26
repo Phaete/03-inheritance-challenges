@@ -3,7 +3,7 @@ package com.phaete;
 import java.util.Objects;
 
 public class Motorcycle extends Vehicle {
-    String typeOfMotorcycle;
+    private String typeOfMotorcycle;
 
     public Motorcycle(String manufacturer, String model, int yearOfManufacture, String typeOfMotorcycle) {
         super(manufacturer, model, yearOfManufacture);
