@@ -13,20 +13,4 @@ public class Main {
         Motorcycle motorcycle = new Motorcycle("Kawasaki", "Ninja", 2022, "Sportbike");
         System.out.println(motorcycle);
     }
-
-    /*
-    Create another derived class from "Vehicle" called "Motorcycle".
-    Add appropriate properties to this class.
-
-    Implement a method in the "Motorcycle" class that returns the type
-    of motorcycle (e.g. Chopper, Sportbike, Cruiser).
-
-    Create instances of both "Car" and "Motorcycle" and call the methods
-    to output the information.
-
-    Discuss together how inheritance was applied in this scenario and what
-    advantages it offers.
-
-
-     */
 }
